@@ -1,0 +1,13 @@
+body{
+    width: 1080px;
+}
+.status-bar{
+    height: 30px;
+}
+.status-bar__column, .header__column {
+    display: inline-block;
+}
+
+.header__icon {
+    margin-right: 20px;
+}
