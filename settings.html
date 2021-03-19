@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="css/index-style.css">
-    <title>More | Kakao Clone</title>
+    <title>Settings | Kakao Clone</title>
 </head>
 <body>
     <!-- 상태 표시줄 -->
@@ -29,73 +29,70 @@
     <!-- 상단 헤더 -->
     <header class="header">
         <div class="header__column">
-            <h1>더보기</h1>
+            <span class="header__icon">
+                <a href="more.html">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+            </span>
+        </div>
+        <div class="header__column">
+            <h1>설정</h1>
         </div>
         <div class="header__column">
             <span class="header__icon">
                 <i class="fas fa-search fa-2x"></i>
             </span>
-            <span class="header__icon">
-                <i class="fas fa-qrcode fa-2x"></i>
-            </span>
-            <span class="header__icon">
-                <i class="fas fa-music fa-2x"></i>
-            </span>
-            <span class="header__icon">
-                <a href="settings.html">
-                    <i class="fas fa-cog fa-2x"></i>
-                </a>
-            </span>
         </div>
     </header>
 
-    <!-- 중간 -->
-    <main class="more">
-        <header class="more__header">
-            <div class="more__column">
-                <span class="more__name">홍길동</span>
-                <button>QR체크인</button>
-            </div>
-            <div class="more__column">
-                <i class="far fa-comment-dots"></i>
-                <span>무제한으로 이모티콘 즐기기</span>
-            </div>
-
-            <div class="more__pay">
-                <button>pay 0원</button>
-                <span>송금 | 결제 | 자산</span>
-            </div>
-
-            <ul class="more__btn-list">
-                <li class="more__btn">
-                    <span class="more__btn-icon">
-                        <i class="far fa-envelope"></i>
+    <!-- 리스트 -->
+    <main class="settings">
+        <section class="settings_sections">
+            <ul class="settings_list">
+                <li class="settings__setting">
+                    <span class="settings__icon">
+                        <i class="fas fa-bullhorn"></i>
                     </span>
-                    <span class="more__btn-title">메일</span>
+                    <span class="settings__title">공지사항</span>
                 </li>
-                <li class="more__btn">
-                    <span class="more__btn-icon">
-                        <i class="far fa-calendar-check"></i>
+                <li class="settings__setting">
+                    <span class="settings__icon">
+                        <i class="fas fa-flask"></i>
                     </span>
-                    <span class="more__btn-title">캘린더</span>
+                    <span class="settings__title">실험실</span>
                 </li>
-                <li class="more__btn">
-                    <span class="more__btn-icon">
-                        <i class="fas fa-gift"></i>
+                <li class="settings__setting">
+                    <span class="settings__icon">
+                        <i class="fas fa-info-circle"></i>
                     </span>
-                    <span class="more__btn-title">선물하기</span>
-                </li>
-                <li class="more__btn">
-                    <span class="more__btn-icon">
-                        <i class="far fa-smile"></i>
-                    </span>
-                    <span class="more__btn-title">이모티콘</span>
+                    <span class="settings__title">버전정보</span>
                 </li>
             </ul>
-        </header>
+        </section>
+        <section class="settings_sections">
+            <ul class="settings_list">
+                <li class="settings__setting">
+                    <span class="settings__icon">
+                        <i class="fas fa-lock"></i>
+                    </span>
+                    <span class="settings__title">개인/보안</span>
+                </li>
+                <li class="settings__setting">
+                    <span class="settings__icon">
+                        <i class="far fa-bell"></i>
+                    </span>
+                    <span class="settings__title">알림</span>
+                </li>
+                <li class="settings__setting">
+                    <span class="settings__icon">
+                        <i class="far fa-user"></i>
+                    </span>
+                    <span class="settings__title">친구</span>
+                </li>
+            </ul>
+        </section>
     </main>
     
-    <!-- 중간 -->
 
     <!-- 하단 내비게이션 바 -->
     <nav class="nav">
