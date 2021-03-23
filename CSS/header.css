@@ -1,0 +1,17 @@
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.header .header__title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.header .header__icon{
+    margin-left: 20px;
+}
+a{
+    color: inherit;
+}
