@@ -1,0 +1,8 @@
+.nav{
+    background-color: #F9F9F9;
+    position: fixed; /*padding 설정 사라짐, width설정 필요*/
+    width: 100%;
+    padding: 15px 40px;
+    border: 1px solid #E1E1E1; 
+    box-sizing: border-box; /*테두리 포함해 사이즈 지정*/
+}

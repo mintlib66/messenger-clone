@@ -1,9 +1,16 @@
 .header{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 15px;
     margin-bottom: 25px;
+    position: fixed;
+    width: 100%;
+    left:0px;
+    padding: 8px 30px;
+    border: 1px solid #E1E1E1; 
+    box-sizing: border-box;
 }
 .header .header__title{
     font-size: 25px;

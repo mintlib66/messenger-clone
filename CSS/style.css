@@ -2,10 +2,15 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
+@import "nav-bar.css";
 
 body{
     background-color: white;
     padding: 10px 20px;
     color: #191919;
     font-family: 'Noto Sans KR', sans-serif;
+}
+
+main{
+    margin-top: 70px;
 }
