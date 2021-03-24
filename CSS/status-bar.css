@@ -9,8 +9,13 @@
     left:0px;
     padding: 5px;
     color: #646464;
+    box-sizing: border-box;
 }
 
 .status-bar{
     font-size: 15px;
+}
+
+.status-bar .status-bar__communi{
+    margin-left: 25px;
 }
